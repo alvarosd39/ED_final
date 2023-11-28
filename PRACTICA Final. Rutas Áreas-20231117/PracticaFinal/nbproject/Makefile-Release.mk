@@ -35,12 +35,12 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/image.o \
-	${OBJECTDIR}/imageES.o \
-	${OBJECTDIR}/imageIO.o \
-	${OBJECTDIR}/main.o \
-	${OBJECTDIR}/pruebapegado.o \
-	${OBJECTDIR}/pruebarotacion.o
+	${OBJECTDIR}/src/image.o \
+	${OBJECTDIR}/src/imageES.o \
+	${OBJECTDIR}/src/imageIO.o \
+	${OBJECTDIR}/src/main.o \
+	${OBJECTDIR}/src/pruebapegado.o \
+	${OBJECTDIR}/src/pruebarotacion.o
 
 
 # C Compiler Flags
@@ -67,35 +67,35 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/practicafinal: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/practicafinal ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/image.o: image.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/image.o: src/image.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/image.o image.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/image.o src/image.cpp
 
-${OBJECTDIR}/imageES.o: imageES.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/imageES.o: src/imageES.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/imageES.o imageES.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/imageES.o src/imageES.cpp
 
-${OBJECTDIR}/imageIO.o: imageIO.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/imageIO.o: src/imageIO.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/imageIO.o imageIO.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/imageIO.o src/imageIO.cpp
 
-${OBJECTDIR}/main.o: main.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/main.o: src/main.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/main.o src/main.cpp
 
-${OBJECTDIR}/pruebapegado.o: pruebapegado.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/pruebapegado.o: src/pruebapegado.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/pruebapegado.o pruebapegado.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/pruebapegado.o src/pruebapegado.cpp
 
-${OBJECTDIR}/pruebarotacion.o: pruebarotacion.cpp
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/src/pruebarotacion.o: src/pruebarotacion.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/pruebarotacion.o pruebarotacion.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/pruebarotacion.o src/pruebarotacion.cpp
 
 # Subprojects
 .build-subprojects:

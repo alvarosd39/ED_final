@@ -80,9 +80,9 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>image.h</itemPath>
-      <itemPath>imageES.h</itemPath>
-      <itemPath>imageIO.h</itemPath>
+      <itemPath>include/image.h</itemPath>
+      <itemPath>include/imageES.h</itemPath>
+      <itemPath>include/imageIO.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -91,12 +91,12 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>image.cpp</itemPath>
-      <itemPath>imageES.cpp</itemPath>
-      <itemPath>imageIO.cpp</itemPath>
-      <itemPath>main.cpp</itemPath>
-      <itemPath>pruebapegado.cpp</itemPath>
-      <itemPath>pruebarotacion.cpp</itemPath>
+      <itemPath>src/image.cpp</itemPath>
+      <itemPath>src/imageES.cpp</itemPath>
+      <itemPath>src/imageIO.cpp</itemPath>
+      <itemPath>src/main.cpp</itemPath>
+      <itemPath>src/pruebapegado.cpp</itemPath>
+      <itemPath>src/pruebarotacion.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -112,6 +112,7 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>../practicafinal/datos/imagenes</Elem>
+    <Elem>src</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -453,23 +454,23 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="image.cpp" ex="false" tool="1" flavor2="0">
+      <item path="include/image.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="image.h" ex="false" tool="3" flavor2="0">
+      <item path="include/imageES.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="imageES.cpp" ex="false" tool="1" flavor2="0">
+      <item path="include/imageIO.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="imageES.h" ex="false" tool="3" flavor2="0">
+      <item path="src/image.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="imageIO.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/imageES.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="imageIO.h" ex="false" tool="3" flavor2="0">
+      <item path="src/imageIO.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="pruebapegado.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/pruebapegado.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -822,23 +823,23 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="image.cpp" ex="false" tool="1" flavor2="0">
+      <item path="include/image.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="image.h" ex="false" tool="3" flavor2="0">
+      <item path="include/imageES.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="imageES.cpp" ex="false" tool="1" flavor2="0">
+      <item path="include/imageIO.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="imageES.h" ex="false" tool="3" flavor2="0">
+      <item path="src/image.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="imageIO.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/imageES.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="imageIO.h" ex="false" tool="3" flavor2="0">
+      <item path="src/imageIO.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="pruebapegado.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/pruebapegado.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>
