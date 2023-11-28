@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1" displayName="datos" projectFiles="true">
+      <logicalFolder name="imagenes" displayName="imagenes" projectFiles="true">
+        <logicalFolder name="aviones" displayName="aviones" projectFiles="true">
+          <itemPath>../practicafinal/datos/imagenes/aviones/avion1.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/avion2.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/avion3.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/avion4.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/avion5.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/avion6.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/mascara_avion1.pgm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/mascara_avion2.pgm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/mascara_avion3.pgm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/mascara_avion4.pgm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/mascara_avion5.pgm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/aviones/mascara_avion6.pgm</itemPath>
+        </logicalFolder>
+        <logicalFolder name="banderas" displayName="banderas" projectFiles="true">
+          <itemPath>../practicafinal/datos/imagenes/banderas/Spain1931_1939.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/afganistan.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/albania.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/alemania.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/angola.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/arabiasaudi.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/argelia.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/argentina.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/australia.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/austria.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/azerbaiyan.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/belgica.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/bolivia.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/bosniaherzegovina.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/brasil.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/bulgaria.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/burkina.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/burundi.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/butan.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/caboverde.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/camboya.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/camerun.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/canada.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/chad.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/chile.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/china.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/chipre.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/colombia.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/corea_norte.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/corea_sur.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/costa_rica.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/ecuador.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/elsalvador.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/espana_reshigh.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/españa.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/estadosunidos.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/francia.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/guatemala.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/honduras.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/inglaterra.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/israel.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/italia.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/japon.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/mexico.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/nicaragua.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/noruega.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/peru.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/qatar.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/republicadominicana.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/rusia.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/venezuela.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/banderas/zimbaue.ppm</itemPath>
+        </logicalFolder>
+        <logicalFolder name="mapas" displayName="mapas" projectFiles="true">
+          <itemPath>../practicafinal/datos/imagenes/mapas/mapa1.ppm</itemPath>
+          <itemPath>../practicafinal/datos/imagenes/mapas/mapa2.ppm</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>image.h</itemPath>
+      <itemPath>imageES.h</itemPath>
+      <itemPath>imageIO.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>image.cpp</itemPath>
+      <itemPath>imageES.cpp</itemPath>
+      <itemPath>imageIO.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>pruebapegado.cpp</itemPath>
+      <itemPath>pruebarotacion.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../practicafinal/datos/imagenes</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="../practicafinal/datos/imagenes/aviones/avion1.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion2.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion3.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion4.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion5.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion6.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion1.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion2.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion3.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion4.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion5.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion6.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/Spain1931_1939.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/afganistan.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/albania.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/alemania.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/angola.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/arabiasaudi.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/argelia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/argentina.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/australia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/austria.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/azerbaiyan.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/belgica.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/bolivia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/bosniaherzegovina.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/brasil.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/bulgaria.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/burkina.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/burundi.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/butan.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/caboverde.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/camboya.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/camerun.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/canada.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/chad.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/chile.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/china.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/chipre.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/colombia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/corea_norte.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/corea_sur.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/costa_rica.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/ecuador.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/elsalvador.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/espana_reshigh.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/españa.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/estadosunidos.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/francia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/guatemala.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/honduras.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/inglaterra.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/israel.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/italia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/japon.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/mexico.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/nicaragua.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/noruega.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/peru.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/qatar.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/republicadominicana.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/rusia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/venezuela.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/zimbaue.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/mapas/mapa1.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/mapas/mapa2.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="imageES.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="imageES.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="imageIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="imageIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pruebapegado.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../practicafinal/datos/imagenes/aviones/avion1.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion2.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion3.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion4.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion5.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/avion6.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion1.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion2.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion3.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion4.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion5.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/aviones/mascara_avion6.pgm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/Spain1931_1939.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/afganistan.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/albania.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/alemania.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/angola.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/arabiasaudi.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/argelia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/argentina.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/australia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/austria.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/azerbaiyan.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/belgica.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/bolivia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/bosniaherzegovina.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/brasil.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/bulgaria.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/burkina.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/burundi.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/butan.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/caboverde.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/camboya.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/camerun.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/canada.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/chad.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/chile.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/china.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/chipre.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/colombia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/corea_norte.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/corea_sur.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/costa_rica.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/ecuador.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/elsalvador.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/espana_reshigh.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/españa.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/estadosunidos.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/francia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/guatemala.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/honduras.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/inglaterra.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/israel.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/italia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/japon.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/mexico.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/nicaragua.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/noruega.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/peru.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/qatar.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/republicadominicana.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/rusia.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/venezuela.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/banderas/zimbaue.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/mapas/mapa1.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../practicafinal/datos/imagenes/mapas/mapa2.ppm"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="imageES.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="imageES.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="imageIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="imageIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pruebapegado.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
