@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>include/Almacen_Rutas.h</itemPath>
+      <itemPath>include/Pais.h</itemPath>
+      <itemPath>include/Paises.h</itemPath>
+      <itemPath>include/Punto.h</itemPath>
+      <itemPath>include/Ruta.h</itemPath>
+      <itemPath>include/imagen.h</itemPath>
+      <itemPath>include/imagenES.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/Almacen_Rutas.cpp</itemPath>
+      <itemPath>src/Pais.cpp</itemPath>
+      <itemPath>src/Paises.cpp</itemPath>
+      <itemPath>src/Prueba.cpp</itemPath>
+      <itemPath>src/Punto.cpp</itemPath>
+      <itemPath>src/Ruta.cpp</itemPath>
+      <itemPath>src/imagen.cpp</itemPath>
+      <itemPath>src/imagenES.cpp</itemPath>
+      <itemPath>src/pruebapegado.cpp</itemPath>
+      <itemPath>src/pruebarotacion.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+          <incFile>
+            <pElem>include/imagenES.h</pElem>
+          </incFile>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+          <incFile>
+            <pElem>include/imagen.h</pElem>
+          </incFile>
+        </ccTool>
+      </compileType>
+      <item path="include/Almacen_Rutas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Pais.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Paises.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Punto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Ruta.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/imagen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/imagenES.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Almacen_Rutas.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/Pais.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Paises.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/Prueba.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Punto.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="src/Ruta.cpp" ex="false" tool="1" flavor2="9">
+        <ccTool>
+          <architecture>0</architecture>
+        </ccTool>
+      </item>
+      <item path="src/imagen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/imagenES.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pruebapegado.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="include/Almacen_Rutas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Pais.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Paises.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Punto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Ruta.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/imagen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/imagenES.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Almacen_Rutas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Pais.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Paises.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Prueba.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Punto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Ruta.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/imagen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/imagenES.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pruebapegado.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
