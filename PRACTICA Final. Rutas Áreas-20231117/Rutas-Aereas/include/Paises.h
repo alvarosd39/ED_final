@@ -71,21 +71,21 @@ public:
           @return iterador
         **/
         
-        iterator operator--() ;
+        iterator & operator--() ;
         
         /**
           @brief amplia el valor del iterador en un punto
           @return iterador
         **/
         
-        iterator operator++();
+        iterator & operator++();
         
         /**
           @brief devuelve el valor que tiene el iterador
           @return valor del iterador
         **/
         
-        const Pais& operator*();
+        const Pais & operator*() ;
         
         /**
           @brief compara si dos iteradores son iguales
@@ -129,14 +129,14 @@ public:
           @return iterador constante
         **/
         
-        const_iterator operator--() ;
+        const_iterator & operator--() ;
         
         /**
           @brief amplia el valor del iterador constante en un punto
           @return iterador constante
         **/
         
-        const_iterator operator++();
+        const_iterator & operator++();
         
         /**
           @brief devuelve el valor que tiene el iterador constante

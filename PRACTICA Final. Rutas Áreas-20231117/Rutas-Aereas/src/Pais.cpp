@@ -30,11 +30,11 @@ Punto Pais::GetPunto()const{
     return p;
 }
 
-string Pais::GetPais(){
+string Pais::GetPais()const{
     return pais;
 }
 
-string Pais::GetBandera(){
+string Pais::GetBandera()const {
     return bandera;
 }
 

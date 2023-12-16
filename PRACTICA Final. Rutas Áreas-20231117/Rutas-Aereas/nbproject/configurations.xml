@@ -22,13 +22,22 @@
       <itemPath>src/Almacen_Rutas.cpp</itemPath>
       <itemPath>src/Pais.cpp</itemPath>
       <itemPath>src/Paises.cpp</itemPath>
-      <itemPath>src/Prueba.cpp</itemPath>
       <itemPath>src/Punto.cpp</itemPath>
       <itemPath>src/Ruta.cpp</itemPath>
+      <itemPath>src/Rutas_Aereas.cpp</itemPath>
       <itemPath>src/imagen.cpp</itemPath>
       <itemPath>src/imagenES.cpp</itemPath>
-      <itemPath>src/pruebapegado.cpp</itemPath>
-      <itemPath>src/pruebarotacion.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -64,6 +73,7 @@
           </incFile>
         </cTool>
         <ccTool>
+          <standard>8</standard>
           <incDir>
             <pElem>include</pElem>
           </incDir>
@@ -92,8 +102,6 @@
       </item>
       <item path="src/Paises.cpp" ex="false" tool="1" flavor2="8">
       </item>
-      <item path="src/Prueba.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="src/Punto.cpp" ex="false" tool="1" flavor2="9">
       </item>
       <item path="src/Ruta.cpp" ex="false" tool="1" flavor2="9">
@@ -101,13 +109,11 @@
           <architecture>0</architecture>
         </ccTool>
       </item>
+      <item path="src/Rutas_Aereas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="src/imagen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/imagenES.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/pruebapegado.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -150,19 +156,15 @@
       </item>
       <item path="src/Paises.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="src/Prueba.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="src/Punto.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/Ruta.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="src/Rutas_Aereas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="src/imagen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/imagenES.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/pruebapegado.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/pruebarotacion.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>

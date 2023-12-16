@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=rutas_areas
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/rutas_areas
+CND_ARTIFACT_NAME_Debug=rutas-aereas
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/rutas-aereas
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=rutasareas.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/rutasareas.tar
+CND_PACKAGE_NAME_Debug=rutas-aereas.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/rutas-aereas.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=rutas_areas
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/rutas_areas
+CND_ARTIFACT_NAME_Release=rutas-aereas
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/rutas-aereas
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=rutasareas.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/rutasareas.tar
+CND_PACKAGE_NAME_Release=rutas-aereas.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/rutas-aereas.tar
 #
 # include compiler specific variables
 #

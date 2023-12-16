@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Rutas_Areas
+PROJECTNAME=Rutas-Aereas
 
 # Active Configuration
 DEFAULTCONF=Debug

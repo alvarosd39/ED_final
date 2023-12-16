@@ -47,14 +47,14 @@ public:
       @return Nombre del pais
     **/
     
-    string GetPais();
+    string GetPais()const;
     
     /**
       @brief devuelve la bandera del Pais
       @return Bandera del pais
     **/
     
-    string GetBandera();
+    string GetBandera()const;
     
     /**
       @brief compara si un pais es menor que otro

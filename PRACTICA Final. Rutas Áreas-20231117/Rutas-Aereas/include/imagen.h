@@ -117,7 +117,7 @@ public:
     const Pixel& operator()(int i , int j)const;
     
     /**
-     * @brief guarda una omagen en disco 
+     * @brief guarda una imagen en disco 
      * @param nombre ruta sonde se almacenara la imagen
      * @pre @p nombre debe ser el nombre de una ruta valida
      */

@@ -38,13 +38,11 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/Almacen_Rutas.o \
 	${OBJECTDIR}/src/Pais.o \
 	${OBJECTDIR}/src/Paises.o \
-	${OBJECTDIR}/src/Prueba.o \
 	${OBJECTDIR}/src/Punto.o \
 	${OBJECTDIR}/src/Ruta.o \
+	${OBJECTDIR}/src/Rutas_Aereas.o \
 	${OBJECTDIR}/src/imagen.o \
-	${OBJECTDIR}/src/imagenES.o \
-	${OBJECTDIR}/src/pruebapegado.o \
-	${OBJECTDIR}/src/pruebarotacion.o
+	${OBJECTDIR}/src/imagenES.o
 
 
 # C Compiler Flags
@@ -65,11 +63,11 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/rutas_areas
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/rutas-aereas
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/rutas_areas: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/rutas-aereas: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/rutas_areas ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/rutas-aereas ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 ${OBJECTDIR}/src/Almacen_Rutas.o: src/Almacen_Rutas.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
@@ -86,11 +84,6 @@ ${OBJECTDIR}/src/Paises.o: src/Paises.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/Paises.o src/Paises.cpp
 
-${OBJECTDIR}/src/Prueba.o: src/Prueba.cpp
-	${MKDIR} -p ${OBJECTDIR}/src
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/Prueba.o src/Prueba.cpp
-
 ${OBJECTDIR}/src/Punto.o: src/Punto.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
@@ -101,6 +94,11 @@ ${OBJECTDIR}/src/Ruta.o: src/Ruta.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/Ruta.o src/Ruta.cpp
 
+${OBJECTDIR}/src/Rutas_Aereas.o: src/Rutas_Aereas.cpp
+	${MKDIR} -p ${OBJECTDIR}/src
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/Rutas_Aereas.o src/Rutas_Aereas.cpp
+
 ${OBJECTDIR}/src/imagen.o: src/imagen.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
@@ -110,16 +108,6 @@ ${OBJECTDIR}/src/imagenES.o: src/imagenES.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/imagenES.o src/imagenES.cpp
-
-${OBJECTDIR}/src/pruebapegado.o: src/pruebapegado.cpp
-	${MKDIR} -p ${OBJECTDIR}/src
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/pruebapegado.o src/pruebapegado.cpp
-
-${OBJECTDIR}/src/pruebarotacion.o: src/pruebarotacion.cpp
-	${MKDIR} -p ${OBJECTDIR}/src
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/pruebarotacion.o src/pruebarotacion.cpp
 
 # Subprojects
 .build-subprojects:
